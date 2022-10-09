@@ -1,5 +1,3 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());
@@ -14,11 +12,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: appTitle,
       home: Scaffold(
-        appBar: AppBar(
-          title: const Text(appTitle),
-        ),
-        body: const MyCustomForm(),
-      ),
+          appBar: AppBar(
+            title: const Text(appTitle),
+          ),
+          body: const MyCustomForm()),
     );
   }
 }
@@ -53,8 +50,12 @@ class MyCustomFormState extends State<MyCustomForm> {
         children: [
           TextFormField(
             // The validator receives the text that the user has entered.
+
+            textAlign: TextAlign.center,
+            initialValue: '00',
+            maxLength: 2,
             validator: (value) {
-              if (value == null || value.isEmpty) {
+              if (value == null || value.isEmpty || value == "00") {
                 return ' Ingresa una temperatura valida ';
               }
               return null;

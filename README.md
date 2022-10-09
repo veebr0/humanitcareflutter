@@ -1,17 +1,9 @@
-# my_app
+# my_app - To complete all requierements for a HumanITCare 
 
 A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Simple, this app just get a temperature value and show a message on the botton that say: `Enviando la información al servidor...`
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# humanitcareflutter
+*Note*: Is my first app but I really want to learn more about it. :)
